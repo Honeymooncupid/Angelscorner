@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>angel's corner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&amp;family=Karla:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="world world--angel" id="worldAngel">
+
+  <div class="floaties" id="floaties" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <h1 class="topbar__brand">angel's corner</h1>
+  </header>
+
+  <nav class="menu" id="menu" aria-label="Main menu">
+    <button class="menu__btn" id="menuBtn" aria-expanded="false" aria-controls="menuPanel" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="menu__scrim" id="menuScrim"></div>
+    <aside class="menu__panel" id="menuPanel">
+      <a href="#home" data-view="home">home</a>
+      <a href="#letters" data-view="letters">letters</a>
+      <a href="#">memories</a>
+      <a href="#">our songs</a>
+        <a href="#uwu" data-view="uwu">UwU</a>
+    </aside>
+  </nav>
+
+  <div class="backdrop" id="backdrop" role="dialog" aria-modal="true" aria-labelledby="popupTitle">
+    <div class="popup">
+      <p class="popup__mark" aria-hidden="true">♡</p>
+      <h2 class="popup__title" id="popupTitle">This corner is for<br>Angel &amp; Jai</h2>
+      <p class="popup__body">please don't peek if you're not one of us</p>
+      <div class="popup__actions">
+        <button class="btn btn--yes" id="btnOk">ok ♡</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="title-card" id="titleCard">
+    <p class="title-card__love">I love you</p>
+    <p class="title-card__sig">— Angel</p>
+  </div>
+
+  <div class="scene" id="scene">
+    <h2 class="scene__title">first kiss</h2>
+    <div class="card" id="card" role="button" tabindex="0" aria-pressed="false" aria-label="Flip the photo card">
+      <div class="card__inner">
+        <div class="card__face card__front">
+          <img src="JaiAndMe.jpg" alt="Jai and Angel">
+        </div>
+        <div class="card__face card__back">
+          <p class="card__place">SM City Pampanga</p>
+          <p class="card__date">09/19/2026</p>
+        </div>
+      </div>
+    </div>
+    <p class="scene__note">tap the card to flip it</p>
+  </div>
+
+  <footer class="footer" id="footer">
+      <div class="walker" aria-hidden="true"><span class="walker__heart">♡</span><pre class="walker__figs"></pre></div>
+    <p class="footer__text">♡ this website is still in development ♡</p>
+  </footer>
+
+  <section class="letters" id="letters" aria-label="Letters" aria-hidden="true">
+    <div class="letters__inner">
+      <h2 class="letters__title">letters</h2>
+      <p class="letters__note">tap a letter to open it &middot; swipe for more</p>
+      <div class="carousel" role="region" aria-roledescription="carousel" aria-label="Letters">
+        <div class="carousel__viewport" id="carouselViewport">
+          <div class="carousel__track" id="carouselTrack"></div>
+        </div>
+        <div class="carousel__controls">
+          <button class="carousel__arrow" id="prevLetter" type="button" aria-label="Previous letter">&lsaquo;</button>
+          <div class="carousel__dots" id="carouselDots"></div>
+          <button class="carousel__arrow" id="nextLetter" type="button" aria-label="Next letter">&rsaquo;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="uwu" id="uwu" aria-label="UwU" aria-hidden="true">
+    <button class="musicbox" type="button" aria-label="Music box: play a little song" title="music box"><span aria-hidden="true">♪</span></button>
+      <div class="uwu__inner">
+      <div class="face" id="faceAngel" role="button" tabindex="0" aria-label="UwU face. Tap it to see a reaction">
+        <pre class="face__art" aria-hidden="true"></pre>
+      </div>
+      <p class="uwu__note">tap the face</p>
+    </div>
+  </section>
+
+  <div class="music">
+    <button class="music__tab" data-role="tab" type="button" aria-expanded="false" aria-controls="musicPanel" aria-label="Open music player"><span class="music__caret">^</span></button>
+    <div class="music__panel" id="musicPanel" role="region" aria-label="Music player">
+      <p class="music__now">now playing</p>
+      <p class="music__title" data-role="title">Yes to Heaven</p>
+      <p class="music__artist" data-role="artist">Lana Del Rey</p>
+      <div class="music__bar" data-role="bar" aria-hidden="true"><div class="music__fill" data-role="fill"></div></div>
+      <div class="music__controls">
+        <button class="music__btn" data-role="prev" type="button" aria-label="Previous song" hidden>⏮</button>
+        <button class="music__btn music__btn--main" data-role="play" type="button" aria-label="Pause music">❚❚</button>
+        <button class="music__btn" data-role="next" type="button" aria-label="Next song" hidden>⏭</button>
+        <button class="music__btn" data-role="mute" type="button" aria-label="Mute music" aria-pressed="false">🔊</button>
+      </div>
+    </div>
+  </div>
+
+  </div><!-- /worldAngel -->
+
+  <!-- ============ Jai's corner (placeholder content for now) ============ -->
+  <div class="world world--jai" id="worldJai" aria-hidden="true" inert>
+
+    <div class="floaties" id="floatiesJai" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <h1 class="topbar__brand">Jai's corner</h1>
+    </header>
+
+    <nav class="menu" id="menuJai" aria-label="Jai's menu">
+      <button class="menu__btn" id="menuBtnJai" type="button" aria-expanded="false" aria-controls="menuPanelJai" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="menu__scrim" id="menuScrimJai"></div>
+      <aside class="menu__panel" id="menuPanelJai">
+        <a href="#home" data-view="home">home</a>
+        <a href="#letters" data-view="letters">letters</a>
+        <a href="#">memories</a>
+        <a href="#">our songs</a>
+        <a href="#uwu" data-view="uwu">UwU</a>
+      </aside>
+    </nav>
+
+    <div class="scene visible" id="sceneJai">
+      <h2 class="scene__title">first kiss</h2>
+      <div class="card" id="cardJai" role="button" tabindex="0" aria-pressed="false" aria-label="Flip the photo card">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            <img src="JaiAndMe.jpg" alt="Jai and Angel">
+          </div>
+          <div class="card__face card__back">
+            <p class="card__place">SM City Pampanga</p>
+            <p class="card__date">09/19/2026</p>
+          </div>
+        </div>
+      </div>
+      <p class="scene__note">tap the card to flip it</p>
+    </div>
+
+    <section class="letters" id="lettersJai" aria-label="Letters" aria-hidden="true">
+      <div class="letters__inner">
+        <h2 class="letters__title">letters</h2>
+        <p class="letters__note">tap a letter to open it &middot; swipe for more</p>
+        <div class="carousel" role="region" aria-roledescription="carousel" aria-label="Letters">
+          <div class="carousel__viewport" id="carouselViewportJai">
+            <div class="carousel__track" id="carouselTrackJai"></div>
+          </div>
+          <div class="carousel__controls">
+            <button class="carousel__arrow" id="prevLetterJai" type="button" aria-label="Previous letter">&lsaquo;</button>
+            <div class="carousel__dots" id="carouselDotsJai"></div>
+            <button class="carousel__arrow" id="nextLetterJai" type="button" aria-label="Next letter">&rsaquo;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="uwu" id="uwuJai" aria-label="UwU" aria-hidden="true">
+      <button class="musicbox" type="button" aria-label="Music box: play a little song" title="music box"><span aria-hidden="true">♪</span></button>
+      <div class="uwu__inner">
+        <div class="face" id="faceJai" role="button" tabindex="0" aria-label="UwU face. Tap it to see a reaction">
+          <pre class="face__art" aria-hidden="true"></pre>
+        </div>
+        <p class="uwu__note">tap the face</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="walker" aria-hidden="true"><span class="walker__heart">♡</span><pre class="walker__figs"></pre></div>
+      <p class="footer__text">♡ this website is still in development ♡</p>
+    </footer>
+
+  <div class="music">
+    <button class="music__tab" data-role="tab" type="button" aria-expanded="false" aria-controls="musicPanelJai" aria-label="Open music player"><span class="music__caret">^</span></button>
+    <div class="music__panel" id="musicPanelJai" role="region" aria-label="Music player">
+      <p class="music__now">now playing</p>
+      <p class="music__title" data-role="title">Yes to Heaven</p>
+      <p class="music__artist" data-role="artist">Lana Del Rey</p>
+      <div class="music__bar" data-role="bar" aria-hidden="true"><div class="music__fill" data-role="fill"></div></div>
+      <div class="music__controls">
+        <button class="music__btn" data-role="prev" type="button" aria-label="Previous song" hidden>⏮</button>
+        <button class="music__btn music__btn--main" data-role="play" type="button" aria-label="Pause music">❚❚</button>
+        <button class="music__btn" data-role="next" type="button" aria-label="Next song" hidden>⏭</button>
+        <button class="music__btn" data-role="mute" type="button" aria-label="Mute music" aria-pressed="false">🔊</button>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <!-- slides everything left/right between angel's corner and Jai's corner -->
+  <button class="worldtoggle" id="worldToggle" type="button" aria-pressed="false" aria-label="Go to Jai's corner" title="Go to Jai's corner">
+    <span class="worldtoggle__icon" aria-hidden="true">♡</span>
+  </button>
+
+  <iframe
+    id="scPlayer"
+    class="sc-player"
+    title="background music"
+    allow="autoplay"
+    src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/user-382783752-296073631/lana-del-rey-yes-to-heaven-long-long-time-linda-ronstadt-instrumental-super-raw-concept&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_teaser=false&amp;visual=false">
+  </iframe>
+
+<script src="https://w.soundcloud.com/player/api.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
