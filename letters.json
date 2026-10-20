@@ -1,13 +1,5 @@
 {
-  "angel": [
-    {
-      "name": "just because",
-      "date": "",
-      "to": "Jai,",
-      "text": "One more placeholder. Add or delete letters in the LETTERS list in script.js and the carousel updates on its own.",
-      "from": "— Angel"
-    }
-  ],
+  "angel": [],
   "jai": [
     {
       "name": "open when you miss me",
