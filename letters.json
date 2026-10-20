@@ -1,0 +1,48 @@
+{
+  "angel": [
+    {
+      "name": "open when you miss me",
+      "date": "",
+      "to": "Jai,",
+      "text": "This is a placeholder letter. Replace this text with whatever you want to say.\n\nYou can write as many paragraphs as you like. If a letter gets long, the card scrolls.",
+      "from": "— Angel"
+    },
+    {
+      "name": "open when you need a smile",
+      "date": "",
+      "to": "Jai,",
+      "text": "Another placeholder. Swap in a favorite memory, an inside joke, or a little reminder of how loved you are.",
+      "from": "— Angel"
+    },
+    {
+      "name": "just because",
+      "date": "",
+      "to": "Jai,",
+      "text": "One more placeholder. Add or delete letters in the LETTERS list in script.js and the carousel updates on its own.",
+      "from": "— Angel"
+    }
+  ],
+  "jai": [
+    {
+      "name": "open when you miss me",
+      "date": "",
+      "to": "Angel,",
+      "text": "This is a placeholder letter from Jai. Replace this text with whatever you want to say.\n\nYou can write as many paragraphs as you like. If a letter gets long, the card scrolls.",
+      "from": "— Jai"
+    },
+    {
+      "name": "open when you need a smile",
+      "date": "",
+      "to": "Angel,",
+      "text": "Another placeholder. Swap in a favorite memory, an inside joke, or a little reminder of how loved you are.",
+      "from": "— Jai"
+    },
+    {
+      "name": "just because",
+      "date": "",
+      "to": "Angel,",
+      "text": "One more placeholder. Add or delete letters in the JAI_LETTERS list in script.js and the carousel updates on its own.",
+      "from": "— Jai"
+    }
+  ]
+}
